@@ -28,6 +28,7 @@ exports.initLocals = function(req, res, next) {
 		{ label: 'Blog',		key: 'blog',		href: '/blog' },
 		{ label: 'Gallery',		key: 'gallery',		href: '/gallery' },
 		{ label: 'Contact',		key: 'contact',		href: '/contact' }
+		{ label: 'View Cart'	key: 'cart'			href: 'https://transactions.sendowl.com/cart?merchant_id=113248'}
 	];
 	
 	locals.user = req.user;
